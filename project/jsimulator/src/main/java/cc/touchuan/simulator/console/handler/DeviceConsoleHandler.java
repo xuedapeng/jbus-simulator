@@ -17,6 +17,7 @@ public class DeviceConsoleHandler extends SimpleChannelInboundHandler<ByteBuf> {
 	
 	public DeviceConsoleHandler(String deviceId, String token) {
 		this.deviceId = deviceId;
+		this.token = token;
 	}
 
 	@Override 
